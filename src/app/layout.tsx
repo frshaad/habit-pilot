@@ -6,8 +6,8 @@ import { ThemeProvider } from '@/components/theme/theme-provider'
 import './globals.css'
 
 export const metadata: Metadata = {
-  description: 'A basic starter for Next.js',
-  title: 'Next.js Starter App',
+  title: 'HabitPilot',
+  description: 'Track Habits. Earn Badges. Stay Consistent.',
 }
 
 const inter = Inter({
