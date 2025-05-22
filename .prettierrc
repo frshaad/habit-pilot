@@ -3,7 +3,7 @@
   "semi": false,
   "importOrder": [
     "^react$",
-    "^next/?",
+    "^(next$|next/)",
     "<THIRD_PARTY_MODULES>",
     "^@/(.*)$",
     "^[./]"
