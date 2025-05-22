@@ -1,16 +1,8 @@
-import Image from 'next/image'
-
-export default function Home() {
+export default function LandingPage() {
   return (
-    <>
-      <h1>Hello World</h1>
-      <Image
-        src="{invoice.image_url}"
-        className="rounded-full"
-        width={28}
-        height={28}
-        alt="s profile picture"
-      />
-    </>
+    <section>
+      <h1>Habit Pilot</h1>
+      <h2>Track Habits. Earn Badges. Stay Consistent.</h2>
+    </section>
   )
 }
