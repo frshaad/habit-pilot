@@ -1,8 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-
 import { ThemeProvider } from '@/components/theme/theme-provider'
-
 import './globals.css'
 
 export const metadata: Metadata = {
